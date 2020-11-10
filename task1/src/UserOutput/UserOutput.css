@@ -1,0 +1,7 @@
+.output {
+    margin: 10px;
+    border: 1px solid green;
+    box-shadow: 0 2px 3px grey;
+    background-color: cornsilk;
+    text-align: center;
+}
