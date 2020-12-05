@@ -24,7 +24,7 @@ class Persons extends Component {
 
 const mapDispatchToProps = dispatch => {
     return {
-    onAddPerson: () => dispatch({type: 'ADD'}),
+    onAddPerson: (name, age) => dispatch({type: 'ADD',personData: {name:name,age:age}}),
     onDeletePerson: (id) => dispatch({type: 'DELETE', personId:id}),
     };
 }
